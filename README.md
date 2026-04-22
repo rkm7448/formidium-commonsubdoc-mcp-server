@@ -1,6 +1,6 @@
 # CommonSubDoc MCP Server
 
-MCP server for the [CommonSubDoc API](https://januarycapital.commonsubdoc.com) — built for January Capital OS.
+MCP server for the [CommonSubDoc API](https://januarycapital.commonsubdoc.com)
 
 ## Setup
 
@@ -33,7 +33,7 @@ Add this to your `claude_desktop_config.json`:
   "mcpServers": {
     "commonsubdoc": {
       "command": "node",
-      "args": ["/absolute/path/to/commonsubdoc-mcp/src/index.js"],
+      "args": ["/src/index.js"],
       "env": {
         "CSD_API_KEY": "your_api_key_here"
       }
