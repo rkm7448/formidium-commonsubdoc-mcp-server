@@ -1,0 +1,15 @@
+{
+  "name": "commonsubdoc-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for CommonSubDoc API (January Capital)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.0",
+    "form-data": "^4.0.0"
+  }
+}
