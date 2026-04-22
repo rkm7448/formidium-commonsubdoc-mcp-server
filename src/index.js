@@ -9,6 +9,9 @@ import {
 
 import { allTools } from "./tools.js";
 import { createHandlers } from "./handlers.js";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // ─── Configuration ─────────────────────────────────────────────────────────
 // API key is read from environment variable CSD_API_KEY.
