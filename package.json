@@ -4,6 +4,9 @@
   "description": "MCP Server for CommonSubDoc API (January Capital)",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "commonsubdoc-mcp": "./src/index.js"
+  },
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"

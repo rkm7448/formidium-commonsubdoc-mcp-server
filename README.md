@@ -26,7 +26,25 @@ npm start
 
 ## Integrate with Claude Desktop
 
-Add this to your `claude_desktop_config.json`:
+Add one of the following to your `claude_desktop_config.json`.
+
+**From GitHub (npx):**
+
+```json
+{
+  "mcpServers": {
+    "commonsubdoc": {
+      "command": "npx",
+      "args": ["-y", "github:rkm7448/formidium-commonsubdoc-mcp-server"],
+      "env": {
+        "CSD_API_KEY": "your_api_key_here"
+      }
+    }
+  }
+}
+```
+
+**From local source (`node`):**
 
 ```json
 {
